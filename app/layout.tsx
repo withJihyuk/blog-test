@@ -6,8 +6,8 @@ import './globals.css';
 const inter = LocalFont({ src: '../public/fonts/PretendardVariable.woff2' });
 
 export const metadata: Metadata = {
-  title: 'Fodo Develop',
-  description: 'Enbraining',
+  title: 'withJihyuk',
+  description: '플러터 엔지니어의 블로그입니다.',
 };
 
 export default function RootLayout({
