@@ -16,7 +16,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+    <html lang="ko">
       <body className={inter.className + ' grid'}>
         <div className="mt-8 lg:w-2/3 w-10/12 mx-auto">
           <Header />
