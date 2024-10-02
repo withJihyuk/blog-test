@@ -6,7 +6,7 @@ import './globals.css';
 const inter = LocalFont({ src: '../public/fonts/PretendardVariable.woff2' });
 
 export const metadata: Metadata = {
-  title: 'withJihyuk',
+  title: 'withJihyuk develop',
   description: '플러터 엔지니어의 블로그입니다.',
 };
 
