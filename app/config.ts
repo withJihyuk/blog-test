@@ -1,7 +1,7 @@
 export const config = {
-  title: '🍇 <b>Fodo</b> Develop',
-  licenceTitle: 'fodog',
-  bio: '<b>그림</b> 그리는 것을 좋아하는 <b>풀스택 개발자</b> 김동학입니다.',
-  githubLink: 'https://github.com/enbraining',
+  title: 'test',
+  licenceTitle: 'test',
+  bio: '블로그 테스트 중이에요',
+  githubLink: 'https://github.com/withJihyuk',
   xLink: 'https://x.com/enbraining',
 };

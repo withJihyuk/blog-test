@@ -78,9 +78,9 @@ export default function Home() {
             <Link href={config.githubLink}>
               <MingcuteGithubFill scope={20} />
             </Link>
-            <Link href={config.xLink}>
+            {/* <Link href={config.xLink}>
               <MingcuteSocialXLine scope={20} />
-            </Link>
+            </Link> */}
           </div>
         </div>
         <div className="grid lg:grid-cols-3 grid-cols-1 gap-x-6 lg:divide-x divide-none">
