@@ -151,7 +151,7 @@ export default function Home() {
           </div>
           <div className="mb-3 lg:order-2 order-1">
             <div className="bg-neutral-300 rounded-xl p-4">
-              <h1 className="mb-4 font-medium lg:flex hidden cursor-pointer">카테고리</h1>
+              <h1 className="mb-4 font-medium lg:flex hidden">카테고리</h1>
               {categories.map(
                 (value, index) =>
                   currentCategory && (
@@ -160,7 +160,7 @@ export default function Home() {
                       className={`${
                         currentCategory.includes(value) &&
                         'bg-white text-slate-500'
-                      } text-neutral-100 text-sm inline-flex mr-1 mb-1 py-1 px-3 rounded-2xl bg-neutral-200 hover:bg-white duration-300`}
+                      } text-neutral-100 text-sm inline-flex mr-1 mb-1 py-1 px-3 rounded-2xl bg-neutral-200 hover:bg-white duration-300 cursor-pointer`}
                       onClick={() => {
                         currentCategory.includes(value)
                           ? setCurrentCategory(
