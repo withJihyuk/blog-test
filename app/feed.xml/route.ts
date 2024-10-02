@@ -3,9 +3,9 @@ import { allPosts } from '../../.contentlayer/generated';
 
 export async function GET() {
   const feed = new RSS({
-    title: 'Fodo Develop',
-    feed_url: 'https://fodo.dev/feed.xml',
-    site_url: 'https://fodo.dev',
+    title: 'withJihyuk blog',
+    feed_url: 'https://blog.mya.ong/feed.xml',
+    site_url: 'https://blog.mya.ong',
   });
 
   if (allPosts) {
@@ -13,7 +13,7 @@ export async function GET() {
       feed.item({
         title: post.title,
         description: post.title,
-        url: `https://fodo.dev/blog/${post._id}`,
+        url: `https://blog.mya.ong/blog/${post._id}`,
         date: post.pubDate,
       });
     });
