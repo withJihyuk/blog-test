@@ -151,7 +151,7 @@ export default function Home() {
           </div>
           <div className="mb-3 lg:order-2 order-1">
             <div className="bg-neutral-300 rounded-xl p-4">
-              <h1 className="mb-4 font-medium lg:flex hidden">카테고리</h1>
+              <h1 className="mb-4 font-medium lg:flex hidden cursor-pointer">카테고리</h1>
               {categories.map(
                 (value, index) =>
                   currentCategory && (
