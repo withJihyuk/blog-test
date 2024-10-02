@@ -22,7 +22,7 @@ export default function Page({ params }: { params: { slug: string[] } }) {
 
   return (
     <main>
-      <title>{`withJihyuk Develop | ${post?.title}`}</title>
+      <title>{`JihyukLab | ${post?.title}`}</title>
       <Link href={'/'}>
         <MaterialSymbolsArrowLeftAltRounded className="mb-5" scope={25} />
       </Link>
