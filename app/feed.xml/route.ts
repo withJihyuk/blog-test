@@ -3,9 +3,9 @@ import { allPosts } from '../../.contentlayer/generated';
 
 export async function GET() {
   const feed = new RSS({
-    title: 'withJihyuk blog',
-    feed_url: 'https://blog.mya.ong/feed.xml',
-    site_url: 'https://blog.mya.ong',
+    title: 'JihyukLab',
+    feed_url: 'https://mya.ong/feed.xml',
+    site_url: 'https://mya.ong',
   });
 
   if (allPosts) {
@@ -13,7 +13,7 @@ export async function GET() {
       feed.item({
         title: post.title,
         description: post.title,
-        url: `https://blog.mya.ong/blog/${post._id}`,
+        url: `https://mya.ong/blog/${post._id}`,
         date: post.pubDate,
       });
     });
