@@ -15,6 +15,8 @@ export function generateStaticParams() {
   return allPosts.map((post) => post._id);
 }
 
+export const runtime = 'edge';
+
 export default function Page({ params }: { params: { slug: string[] } }) {
   const post = allPosts.find((post) => post._id == params.slug.join('/'));
 
