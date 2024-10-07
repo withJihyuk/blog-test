@@ -8,5 +8,4 @@ category: 서버
 
 # TL;DR
 
-블로그겸 웹사이트로 테스트 중이에요.
 ![CAT](/posts/cat.webp)
